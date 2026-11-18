@@ -8,3 +8,26 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+#black a {
+  text-decoration: none;
+  color: black;
+}
+span a{
+  text-decoration: none;
+}
+
+#white a{
+  color:white;
+}
+#title-index{
+  color:rgb(46, 145, 244) !important;
+  text-align: center;
+  transition: 0.5s ease;
+}
+#title-index a{
+  text-decoration: none;
+}
+
+#title-index:hover{
+  text-decoration: underline;
+}
